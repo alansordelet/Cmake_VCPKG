@@ -1,5 +1,5 @@
 # This workflow is for building and testing a CMake project on a single platform using vcpkg.
-name: CMake on a single platform
+name: CMake_VCPKG
 
 on:
   push:
@@ -34,7 +34,7 @@ jobs:
 
     - name: Configure CMake
       run: |
-        cmake -S . -B build `
+        cmake -G Ninja -S . -B build `
           -DCMAKE_BUILD_TYPE=${{ env.BUILD_TYPE }} `
           -DCMAKE_TOOLCHAIN_FILE="$env:VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake"
       shell: pwsh
@@ -44,7 +44,7 @@ jobs:
       shell: pwsh
 
     - name: Run Executable
-      working-directory: ${{ github.workspace }}/build/src/${{ env.BUILD_TYPE }}
+      working-directory: ${{ github.workspace }}/build/Cmake_VCPKG/${{ env.BUILD_TYPE }}
       run: |
         start /b ./cours_test.exe
         timeout /t 5
