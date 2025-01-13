@@ -1,0 +1,12 @@
+Détection du hachage du compilateur pour le triplet x64-windows...
+Compilateur trouvé : C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+Tous les packages demandés sont actuellement installés.
+Temps total de l’installation : 800 ns
+The package sfml provides CMake targets:
+
+    find_package(SFML COMPONENTS system window graphics audio CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE sfml-system sfml-network sfml-graphics sfml-window sfml-audio)
+
+    # If you want SFML to provide an implementation of main():
+    target_link_libraries(main PRIVATE sfml-main)
+

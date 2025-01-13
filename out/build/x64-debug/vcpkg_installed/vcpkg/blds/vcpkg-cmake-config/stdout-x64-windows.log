@@ -1,0 +1,4 @@
+-- Installing: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/copyright
+-- Validation post-build ignorée en raison de VCPKG_POLICY_EMPTY_PACKAGE

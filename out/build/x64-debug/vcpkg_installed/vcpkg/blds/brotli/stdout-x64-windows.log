@@ -1,0 +1,71 @@
+-- Downloading https://github.com/google/brotli/archive/v1.1.0.tar.gz -> google-brotli-v1.1.0.tar.gz...
+-- Extracting source C:/Users/a.sordelet/AppData/Local/vcpkg/downloads/google-brotli-v1.1.0.tar.gz
+-- Applying patch install.patch
+-- Applying patch fix-arm-uwp.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch emscripten.patch
+-- Using source at C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/blds/brotli/src/v1.1.0-958bece74c.clean
+CMake Warning (dev) at scripts/cmake/vcpkg_find_acquire_program.cmake:70 (cmake_parse_arguments):
+  The INTERPRETER keyword was followed by an empty string or no value at all.
+  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  arg_INTERPRETER variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_find_acquire_program.cmake:143 (z_vcpkg_find_acquire_program_find_internal)
+  C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:116 (vcpkg_find_acquire_program)
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/4e5b5ae1ad26c80535c893cc0307121f0398549e/portfile.cmake:14 (vcpkg_cmake_configure)
+  scripts/ports.cmake:192 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at scripts/cmake/vcpkg_find_acquire_program.cmake:30 (cmake_parse_arguments):
+  The INTERPRETER keyword was followed by an empty string or no value at all.
+  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  arg_INTERPRETER variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_find_acquire_program.cmake:149 (z_vcpkg_find_acquire_program_find_external)
+  C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:116 (vcpkg_find_acquire_program)
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/4e5b5ae1ad26c80535c893cc0307121f0398549e/portfile.cmake:14 (vcpkg_cmake_configure)
+  scripts/ports.cmake:192 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+CMake Warning at scripts/cmake/vcpkg_copy_pdbs.cmake:44 (message):
+  Could not find a matching pdb file for:
+
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/bin/brotlicommon.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/bin/brotlidec.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/bin/brotlienc.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/debug/bin/brotlicommon.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/debug/bin/brotlidec.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/debug/bin/brotlienc.dll
+
+Call Stack (most recent call first):
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/4e5b5ae1ad26c80535c893cc0307121f0398549e/portfile.cmake:20 (vcpkg_copy_pdbs)
+  scripts/ports.cmake:192 (include)
+
+
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/lib/pkgconfig/libbrotlienc.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/a.sordelet/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+CMake Warning (dev) at scripts/cmake/vcpkg_find_acquire_program.cmake:70 (cmake_parse_arguments):
+  The INTERPRETER keyword was followed by an empty string or no value at all.
+  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  arg_INTERPRETER variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_find_acquire_program.cmake:143 (z_vcpkg_find_acquire_program_find_internal)
+  scripts/cmake/vcpkg_fixup_pkgconfig.cmake:193 (vcpkg_find_acquire_program)
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/4e5b5ae1ad26c80535c893cc0307121f0398549e/portfile.cmake:21 (vcpkg_fixup_pkgconfig)
+  scripts/ports.cmake:192 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/debug/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/debug/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/debug/lib/pkgconfig/libbrotlienc.pc
+-- Installing: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/share/brotli/usage
+-- Installing: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/share/brotli/copyright
+-- Exécution de la validation post-build

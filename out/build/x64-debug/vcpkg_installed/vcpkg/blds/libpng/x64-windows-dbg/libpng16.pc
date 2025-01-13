@@ -1,0 +1,12 @@
+prefix=C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug
+exec_prefix=C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug
+libdir=C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib
+includedir=C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.44
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: 
+Cflags: -I${includedir}

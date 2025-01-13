@@ -1,0 +1,71 @@
+-- Downloading https://github.com/xiph/vorbis/archive/v1.3.7.tar.gz -> xiph-vorbis-v1.3.7.tar.gz...
+-- Extracting source C:/Users/a.sordelet/AppData/Local/vcpkg/downloads/xiph-vorbis-v1.3.7.tar.gz
+-- Applying patch 0001-Dont-export-vorbisenc-functions.patch
+-- Applying patch 0002-Fixup-pkgconfig-libs.patch
+-- Applying patch 0003-def-mingw-compat.patch
+-- Applying patch 0004-ogg-find-dependency.patch
+-- Using source at C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/blds/libvorbis/src/v1.3.7-c32164610e.clean
+CMake Warning (dev) at scripts/cmake/vcpkg_find_acquire_program.cmake:70 (cmake_parse_arguments):
+  The INTERPRETER keyword was followed by an empty string or no value at all.
+  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  arg_INTERPRETER variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_find_acquire_program.cmake:143 (z_vcpkg_find_acquire_program_find_internal)
+  C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:116 (vcpkg_find_acquire_program)
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/portfile.cmake:14 (vcpkg_cmake_configure)
+  scripts/ports.cmake:192 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at scripts/cmake/vcpkg_find_acquire_program.cmake:30 (cmake_parse_arguments):
+  The INTERPRETER keyword was followed by an empty string or no value at all.
+  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  arg_INTERPRETER variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_find_acquire_program.cmake:149 (z_vcpkg_find_acquire_program_find_external)
+  C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:116 (vcpkg_find_acquire_program)
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/portfile.cmake:14 (vcpkg_cmake_configure)
+  scripts/ports.cmake:192 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/lib/pkgconfig/vorbisfile.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/a.sordelet/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+CMake Warning (dev) at scripts/cmake/vcpkg_find_acquire_program.cmake:70 (cmake_parse_arguments):
+  The INTERPRETER keyword was followed by an empty string or no value at all.
+  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  arg_INTERPRETER variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_find_acquire_program.cmake:143 (z_vcpkg_find_acquire_program_find_internal)
+  scripts/cmake/vcpkg_fixup_pkgconfig.cmake:193 (vcpkg_find_acquire_program)
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/portfile.cmake:20 (vcpkg_fixup_pkgconfig)
+  scripts/ports.cmake:192 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/debug/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/debug/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/debug/lib/pkgconfig/vorbisfile.pc
+CMake Warning at scripts/cmake/vcpkg_copy_pdbs.cmake:44 (message):
+  Could not find a matching pdb file for:
+
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/bin/vorbis.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/bin/vorbisenc.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/bin/vorbisfile.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/debug/bin/vorbis.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/debug/bin/vorbisenc.dll
+      C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/debug/bin/vorbisfile.dll
+
+Call Stack (most recent call first):
+  C:/Users/a.sordelet/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/portfile.cmake:21 (vcpkg_copy_pdbs)
+  scripts/ports.cmake:192 (include)
+
+
+-- Installing: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/share/libvorbis/usage
+-- Installing: C:/Users/a.sordelet/source/repos/CMake_VCPKG/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/libvorbis_x64-windows/share/libvorbis/copyright
+-- Exécution de la validation post-build
