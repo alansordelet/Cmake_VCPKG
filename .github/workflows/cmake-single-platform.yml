@@ -46,7 +46,7 @@ jobs:
     - name: Run Executable
       working-directory: ${{ github.workspace }}/build/Cmake_VCPKG/${{ env.BUILD_TYPE }}
       run: |
-        start /b ./cours_test.exe
+        start /b ./CMake_VCPKG.exe
         timeout /t 5
-        taskkill /f /im cours_test.exe
+        taskkill /f /im CMake_VCPKG.exe
       shell: cmd
